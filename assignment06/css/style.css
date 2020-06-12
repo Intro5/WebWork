@@ -1,0 +1,42 @@
+.tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8, .tileBlank {
+    display: table-cell;
+    width: 144px;
+    height: 144px;
+    border: 2px solid white;
+}
+
+.tile1 {
+    background: url(../img/ass6p0.png);
+}
+
+.tile2 {
+    background: url(../img/ass6p1.png);
+}
+
+.tile3 {
+    background: url(../img/ass6p2.png);
+}
+
+.tile4 {
+    background: url(../img/ass6p3.png);
+}
+
+.tile5 {
+    background: url(../img/ass6p4.png);
+}
+
+.tile6 {
+    background: url(../img/ass6p5.png);
+}
+
+.tile7 {
+    background: url(../img/ass6p6.png);
+}
+
+.tile8 {
+    background: url(../img/ass6p7.png);
+}
+
+.tileBlank {
+    background: url(../img/ass6p8.png);
+}

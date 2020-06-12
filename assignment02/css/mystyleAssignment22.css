@@ -1,0 +1,53 @@
+#border {
+    border: 1px solid blue;
+}
+
+h1 {
+    margin-left: 3%;
+
+}
+
+h3 {
+    text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 93%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th {
+    color: white;
+    background-color: grey;
+}
+
+#time {
+    background-color: orange;
+    text-align: right;
+}
+
+#blue {
+    background-color: lightblue;
+}
+
+#purple {
+    background-color: #C444D8;
+}
+
+#green {
+    background-color: lightgreen;
+}
+
+#red {
+    background-color: red;
+}
+
+#yellow {
+    background-color: yellow;
+}

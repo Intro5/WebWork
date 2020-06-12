@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <title>Exercise 3</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel = "stylesheet" href = "css/assign5ex3.css">
+    </head>
+    <body>
+        <script type='text/javascript' src='js/assign5ex3.js'></script>
+        <div>
+            <form>
+                <input type="number" id="valToConver" value="number"><label for="number">Inches</label>          
+                <fieldset>
+                    <legend>Convert to:</legend>
+                        <input type="radio" name="unitList" id="inch" value="inches">
+                        <label for="inches">Inches</label>
+                        
+                        <input type="radio" name="unitList" id="cent" value="centimeters">
+                        <label for="centimeters">Centimeters</label>
+                </fieldset>
+                <button type="button" id="convertButton">Convert</button>
+            </form>
+            <div id="output"></div>
+        </div>
+        
+    </body>
+</html>

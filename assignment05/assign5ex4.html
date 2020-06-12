@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <title>Assignemnt 5 ex 4</title>
+        <link rel = "stylesheet" href = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+        <script src = "https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <script type='text/javascript' src='js/BullsEye.js'></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div data-role="page">
+            <div data-role=header>
+                <h1>Assignemnt 5 ex 4</h1>
+            </div>
+            <div data-role='content'>
+                <label for="nLevels"> Levels</label>
+                <input type="range" name="nLevels" id="nLevels" min="0" max="240" placeholder="0">
+                <button onclick="drawIt()">Make Bull's Eye</button>
+                <canvas id="mycircle" height="100" width="100"> </canvas>
+            </div>
+        </div>
+    </body>
+</html>

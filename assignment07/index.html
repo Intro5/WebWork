@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <title>texting tutor</title>
+
+        <link rel = "stylesheet" href = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+        <script src = "https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type='text/javascript' src='js/textingTutor.js'></script>
+    </head>
+    <body>
+        <div data-role="page">
+            <div data-role="header">
+                <h1>texting tutor</h1>
+            </div>
+
+            <div data-role="content">
+                <button onclick="startTest();">Start Test</button><br>
+
+                <label for="typewhat">The text typed will show here.</label><br>
+                <input style="background-color: dodgerblue; color: white;"
+                 type="text" id="typewhat" disables><br>
+
+                <br><br>
+                <label for="textinput">Enter text here.</label><br>
+                <input style="background-color: dodgerblue; color: white;"
+                 type="text" id="textinput" disables><br>
+
+
+                <button onclick="stopTest();">Stop Test</button>
+
+                <p id="results"></p>
+            </div>
+        </div>
+    </body>
+</html>
